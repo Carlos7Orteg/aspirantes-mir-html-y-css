@@ -1,1 +1,50 @@
-|
+.Login-general {
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 35px;
+  background-image: linear-gradient(#bd09b7, #6b4cf5);
+  color: #ffffff;
+  font-family: sans-serif;
+  box-shadow: 3px 3px 10px 3px #5b5555;
+}
+
+h1 {
+  margin-top: -2px;  /* Ajusta el valor según tus necesidades */
+}
+
+.Login-email input,
+.Login-password input {
+  padding: 7px;
+  width: 100%;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.Select-input select {
+  padding: 7px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.Button input {
+  float: right;
+  padding: 5px 15PX;
+  border-radius: 2px;
+  margin-top: -12px;
+}
+
+/* Estilos mobile first para formulario */
+@media (min-width: 0px) {
+  .Login-general {
+    width: 100%;     /* Ancho del formulario para pantallas menores a 500px */
+  }
+}
+
+/* Consulta de medios para pantallas de 500px o más */
+@media (min-width: 500px) {
+  .Login-general {
+    width: 300px;   /* Ancho del formulario para pantallas de 500px o más */
+  }
+}
